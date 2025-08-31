@@ -5,8 +5,8 @@ import os
 
 app = Flask(__name__)
 
-API_TOKEN = os.getenv("32c9d3f4bc51b2d96ab84066394315ba")
-ROOM_ID = os.getenv("405755352")
+API_TOKEN = os.getenv("CHATWORK_API_TOKEN")
+ROOM_ID = os.getenv("CHATWORK_ROOM_ID")
 FONT_PATH = "NotoSansJP-Bold.otf"
 
 def get_message(room_id, message_id):
